@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #313131;    
+    --brand-color: #EF5F4C;
+    --background-color: #FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: #ffffff8f;
+    --text-color-secundary: #6C6C6C;    
+    background-color: var(--skeleton-color);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.paragraph-sm {
+    font-size: 12px;
+    line-height: 170%;
+}
+
+.paragraph-md {
+    font-size: 14px;
+    line-height: 170%;
+}
+
+
